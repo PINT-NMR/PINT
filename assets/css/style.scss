@@ -8,9 +8,6 @@ img {
     margin: auto;
 }
 
-.left {
-    float: left;
-}
-.right {
-float: right;
-}
+#container{width:100%;}
+#left{float:left;width:100px;}
+#right{float:right;width:100px;}
