@@ -15,6 +15,8 @@
    width:1000px;
    margin:0 auto;
 }
+.nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+.article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
 		  </style>
   </head>
 
@@ -28,13 +30,6 @@
             <img src="images/pint_icon.png">
           </h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-
-          {% if site.show_downloads %}
-            <section id="downloads">
-              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
-            </section>
-          {% endif %}
         </header>
     </div>
 
