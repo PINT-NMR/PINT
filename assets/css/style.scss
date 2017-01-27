@@ -7,6 +7,9 @@ img {
     display: block;
     margin: auto;
 }
-
-#left{float:left;width:30%;}
-#right{float:right;width:70%;}
+.inner {
+  position: relative;
+  max-width: 1200px;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
