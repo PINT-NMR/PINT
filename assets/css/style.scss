@@ -3,3 +3,7 @@
 
 @import "{{ site.theme }}";
 
+img {
+    display: block;
+    margin: auto;
+}
