@@ -1,42 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
+
+  <head>
+  <style>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <meta name="description" content=":{{ site.title | default: site.github.repository_name }}">
+    <meta name="description" content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
     <title>{{ site.title | default: site.github.repository_name }}</title>
-<style>
-	div.container {
-    width: 100%;
-    border: 1px solid gray;
-	  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
-}
-	header, footer {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: center;
-}
-nav {
+	
+	nav {
     float: left;
     max-width: 160px;
     margin: 0;
     padding: 1em;
 }
 
-	
-a {
-  display: inline-block;
-  text-decoration: none;
-  border-bottom: 1px dotted #666;
-  color: inherit;
-  text-shadow: none;
-}
-	a:hover, a:focus {border-bottom: 1px solid #0090ff;}
-	
-nav ul {
+	nav ul {
     list-style-type: none;
     padding: 0;
 }
@@ -46,64 +29,17 @@ article {
     padding: 1em;
     overflow: hidden;
 }
-	
-h1 {
-  margin-bottom: 20px;
-  font-size: 36px;
-  line-height: 1.1;
-  font-weight: 700;
-}
+	</style>
+  </head>
 
-h1#project_title {
-  text-transform: uppercase;
-}
+  <body>
 
-h2 {
-  font-size: 32px;
-  line-height: 1.2;
-}
-
-h3 {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  font-size: 24px;
-  line-height: 1.3;
-}
-
-h4 {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  font-size: 21px;
-}
-
-h5 {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  font-size: 18px;
-}
-
-h6 {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  font-size: 16px;
-}
-</style>
-</head>
-  
-<body>
-
-<div class="container">
-
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
         <header class="inner">
           <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
 
-          <style>
-            h2{
-              font-size: 150%;
-            }
-          </style>
-            
-          <h1 id="project_title">
+                    <h1 id="project_title">
             <img src="images/pint_icon.png">
           </h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
@@ -115,8 +51,12 @@ h6 {
             </section>
           {% endif %}
         </header>
-  
-<nav>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <nav>
   <ul>
 	<h1>Download PINT</h1>
     <li><a href="#">Windows</a></li>
@@ -129,7 +69,10 @@ h6 {
   <h1>NMR spectroscopy software for line shape fitting and downstream analysis.</h1>
   <p>PINT (Peak INTegration) is designed to perform integration of peaks in NMR spectra. The program is easy to use, yet powerful enough to handle complicated spectra. Peaks are integrated by fitting predefined line shapes to experimental data and the fitting can be customized to deal with heavily overlapped peaks. The results can be inspected graphically, which facilitates systematic optimization of the line shape fitting. The integrated peak volumes can be used to extract parameters such as relaxation rates and information about low populated states. Since the release of v2.0, PINT is based on a graphical user interface and contains all necessary tools to render and interact with spectra and automatically generate plots. Comprehensible video tutorials and a user manual are accessed from within the software. PINT is compiled for 64-bit versions of Windows, Linux and Mac OS X.</p>
 </article>
+      </section>
+    </div>
 
+    <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         {% if site.github.is_project_page %}
@@ -139,7 +82,7 @@ h6 {
       </footer>
     </div>
 
-</div>
 
-</body>
+
+  </body>
 </html>
