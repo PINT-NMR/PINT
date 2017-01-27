@@ -17,13 +17,13 @@ img {
 .table {
 	display: table;   /* Allow the centering to work */
 	margin: 0 auto;
-	padding: 0 100px;
 }
 
 ul#horizontal-list {
 	min-width: 696px;
 	list-style: none;
 	padding-top: 20px;
+	padding: 0 100px;
 	}
 	ul#horizontal-list li {
 		display: inline;
@@ -32,8 +32,8 @@ ul#horizontal-list {
 
 #project_tagline {
   color: #fff;
-  font-size: 36px;
+  font-size: 22px;
   font-weight: 300;
   background: none;
-  max-width: 900px;
+  max-width: 980px;
 }
