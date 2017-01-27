@@ -8,8 +8,13 @@ img {
     margin: auto;
 }
 
-.nav {
+.left {
     position: absolute;
     left: 0px;
     width: 300px;
+}
+.right {
+    position: absolute;
+    right: 0px;
+    width: 1000px;
 }
