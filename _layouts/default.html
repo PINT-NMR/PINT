@@ -1,53 +1,59 @@
-<!DOCTYPE html>
 <html>
-  <head>
+    <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <meta name="description" content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="icon" href="images/pint_icon.png">
     <title>{{ site.title | default: site.github.repository_name }}</title>
 		    </head>
   <body>
-    <!-- HEADER -->
+        <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
           <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
 
                     <h1 id="project_title">
     <p id=pint_head style="float: left;"><img src="images/pinticon.png" border="0px" width="328px" height="256px"></p>
-            <p id="pint_title">NMR spectroscopy software for line shape fitting and downstream analysis</p>
+            <p id="pint_title_header">NMR spectroscopy software for line shape fitting and downstream analysis</p>
           </h1>
         </header>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner2">
-	      <div id="container">
-  <div id="left">
-  <h1>Download PINT</h1>
-	  <div class="table">
-  <ul id="horizontal-list">
-    <li><a href="https://github.com/PINT-NMR/PINT/releases/download/v2.0/PINT_v2_windows_x86_64.zip">Windows</a></li>
-    <li><a href="https://github.com/PINT-NMR/PINT/releases/download/v2.0/PINT_v2_mac_x86_64.dmg">Mac</a></li>
-    <li><a href="https://github.com/PINT-NMR/PINT/releases/download/v2.0/PINT_v2_linux_x86_64.tar.gz">Linux</a></li>
-    <li><a href="https://github.com/PINT-NMR/PINT/archive/v2.0.zip">Source code</a></li>
-  </ul>
-	  </div>
-	      </div>
-
-  <div id="right">
-  <h1>A user-friendly software for rapid analysis of NMR spectra</h1>
-  <p>PINT (Peak INTegration) is designed to perform integration of peaks in NMR spectra. The program is easy to use, yet powerful enough to handle complicated spectra. Peaks are integrated by fitting predefined line shapes to experimental data and the fitting can be customized to deal with heavily overlapped peaks. The results can be inspected graphically, which facilitates systematic optimization of the line shape fitting. The integrated peak volumes can be used to extract parameters such as relaxation rates and information about low populated states.</p>
-  <p>Since the release of v2.0, PINT is based on a graphical user interface and contains all necessary tools to render and interact with spectra and automatically generate plots. Comprehensible video tutorials and a user manual are accessed from within the software. PINT is compiled for 64-bit versions of Windows, Linux and Mac OS X.</p>
+<section id="main_content" class="inner2">
+<div>
+  <p class="PINT_title">Download PINT</p>
 </div>
-	      </div>
-      </section>
+  <div class="main-container">
+  <div class="fixer-container">
+<div class="container">
+  <p class="title">Windows</p>
+  <div class="overlay"></div>
+  <div class="button"><a href="https://github.com/PINT-NMR/PINT/releases/download/v2.0/PINT_v2_windows_x86_64.zip"> Download </a></div>
+</div>
+<div class="container">
+  <p class="title">Mac</p>
+  <div class="overlay"></div>
+  <div class="button"><a href="https://github.com/PINT-NMR/PINT/releases/download/v2.0/PINT_v2_mac_x86_64.dmg"> Download </a></div>
+</div>
+<div class="container">
+  <p class="title">Linux</p>
+  <div class="overlay"></div>
+  <div class="button"><a href="https://github.com/PINT-NMR/PINT/releases/download/v2.0/PINT_v2_linux_x86_64.tar.gz"> Download </a></div>
+</div>
+<div class="container">
+  <p class="title">Source code</p>
+  <div class="overlay"></div>
+  <div class="button"><a href="https://github.com/PINT-NMR/PINT/archive/v2.0.zip"> Download </a></div>
+</div>
     </div>
-
+    </div>
+<div>
+  <p class="PINT_desc">A user-friendly software for rapid and accurate analysis of NMR spectra</p>
+<p class="article">PINT (Peak INTegration) is designed to perform integration of peaks in NMR spectra. The program is easy to use, yet powerful enough to handle complicated spectra. Peaks are integrated by fitting predefined line shapes to experimental data and the fitting can be customized to deal with heavily overlapped peaks. The results can be inspected graphically, which facilitates systematic optimization of the line shape fitting. The integrated peak volumes can be used to extract parameters such as relaxation rates and information about low populated states.<br><br>
+PINT v2.0 is based on a graphical user interface and contains all necessary tools to render and interact with spectra and automatically generate plots. Comprehensible video tutorials and a user manual are accessed from within the software. PINT is compiled for 64-bit versions of Windows, Linux and Mac OS X.</p>
+</div>
+</section>
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
@@ -57,8 +63,5 @@
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-
-
-
-  </body>
+</body>
 </html>
