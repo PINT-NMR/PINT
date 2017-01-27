@@ -192,3 +192,13 @@ footer p {
 #forkme_banner:hover {
   background-color: #1883ed;
 }
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px dotted #666;
+  color: inherit;
+  text-shadow: none;
+}
+
+a:hover, a:focus {border-bottom: 1px solid #0090ff;}
