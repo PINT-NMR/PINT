@@ -16,7 +16,8 @@ img {
 
 .table {
 	display: table;   /* Allow the centering to work */
-	margin: 100 auto;
+	margin: 0 auto;
+	padding: 100px;
 }
 
 ul#horizontal-list {
