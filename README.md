@@ -1,9 +1,7 @@
 # PINT
 NMR spectroscopy software for line shape fitting and downstream analysis.
 
-Binaries are available for 64-bit versions of Windows, Linux and Mac OS X.
-
-Please note that the source code and libraries needed for compilation is available under the release section.
+Binaries are available for 64-bit versions of Windows, Linux and Mac OS X in the "Release" section.
 
 Academic users, please cite PINT in your work according to the instructions found in the "About" section in the software.
 
