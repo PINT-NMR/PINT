@@ -135,7 +135,7 @@
   position: relative;
   width: 250px;
   left:0;
-  top: -25px;
+  top: 20px;
   text-align: center;
   opacity: 0;
   transition: opacity .35s ease;
