@@ -1,12 +1,15 @@
 #header_wrap {
   background: #000000;
+  margin: auto;
 }
 
 #header_wrap .inner {
-  padding: 60px 10px 170px 0px;
+  padding: 60px;
+  margin: auto;
 }
 #main_content {
   padding-top: 40px;
+  margin: auto;
 }
 .inner2 {
   position: relative;
@@ -160,13 +163,11 @@
 font-size:26px;
   max-width: 580px;
    line-height: 2.0;
+  text-align:center;
 }
 #pint_head {
-
-    max-width: 500px;
+    max-width: 1000px;
     font-size:28px;
-  margin-right:25px;
-  margin-bottom:5px;
 }
 footer p {
   color: #f2f2f2;
