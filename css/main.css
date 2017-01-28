@@ -62,7 +62,7 @@
   position: relative;
   width: 250px;
   left: 0;
-  top: 25px;
+  top: 15px;
   font-weight: 700;
   font-size: 30px;
   text-align: center;
@@ -136,7 +136,7 @@
   position: relative;
   width: 250px;
   left:0;
-  top: 25px;
+  top: 15px;
   text-align: center;
   opacity: 0;
   transition: opacity .35s ease;
@@ -170,7 +170,6 @@ font-size:36px;
 #pint_head {
     max-width: 1000px;
     font-size:28px;
-  margin: auto;
 }
 footer p {
   color: #f2f2f2;
@@ -203,4 +202,9 @@ a {
   border-bottom: 1px dotted #666;
   color: inherit;
   text-shadow: none;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
 }
