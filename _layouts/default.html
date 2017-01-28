@@ -1,209 +1,68 @@
-#header_wrap {
-  background: #000000;
-  margin: auto;
-}
-
-#header_wrap .inner {
-  padding: 60px;
-  margin: auto;
-}
-#main_content {
-  padding-top: 20px;
-  margin: auto;
-}
-.inner2 {
-  position: relative;
-  max-width: 1000px;
-}
-
-
-.outer {
-  width: 100%;
-  padding: 0 10px;
-  color: #ffffff;
-}
-
-.inner {
-  position: relative;
-  max-width: 1000px;
-  padding: 20px 10px;
-  margin: 0 auto;
-}
-
-.container {
-  float: left;
-  position: relative;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  width: 250px;
-  height: 200px;
-  background: rgba(0, 0, 0, 1);
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: #FFF;
-  background: rgba(0, 0, 0, 0);
-  transition: background 0.5s ease;
-}
-
-.container:hover .overlay {
-  display: block;
-  background: rgba(0, 0, 0, .3);
-}
-
-.title {
-  position: relative;
-  width: 250px;
-  left: 0;
-  top: 15px;
-  font-weight: 700;
-  font-size: 30px;
-  text-align: center;
-  color: white;
-  z-index: 1;
-  transition: top .5s ease;
-
-
-  font-size: 32px;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-
-.PINT_title {
-  position: relative;
-  width: 1000px;
-  left: 0;
-  margin-top: 0px;
-  font-weight: 700;
-  font-size: 30px;
-  text-align: left;
-  color: black;
-  z-index: 1;
-  transition: top .5s ease;
-    font-size: 42px;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-}
-
-.PINT_desc {
-  position: relative;
-  max-width:1000px;
-  width: 1000px;
-  left: 0;
-  margin-top: 250px;
-  font-weight: 700;
-  font-size: 30px;
-  text-align: left;
-  color: black;
-  z-index: 1;
-  transition: top .5s ease;
-    font-size: 28px;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-
-.article {
-  position: relative;
-  max-width:1000px;
-  width: 1000px;
-  left: 0;
-  margin-top: 20px;
-  font-weight: 570;
-  text-align: left
-  color: black;
-  z-index: 1;
-    font-size: 16px;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-
-.container:hover .title {
-  top: 5px;
-}
-
-.button {
-  position: relative;
-  width: 250px;
-  left:0;
-  top: 15px;
-  text-align: center;
-  opacity: 0;
-  transition: opacity .35s ease;
-    font-size: 18px;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-
-.button a {
-  width: 150px;
-  padding: 7px 30px;
-  text-align: center;
-  color: white;
-  border: solid 2px white;
-  z-index: 1;
-}
-
-.container:hover .button {
-  opacity: 1;
-}
-
-#pint_title_header{
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-font-size:36px;
-  max-width: 700px;
-   line-height: 2.0;
-  text-align:center;
-  margin: auto;
-}
-#pint_head {
-    max-width: 1000px;
-    font-size:28px;
-}
-footer p {
-  color: #f2f2f2;
-}
-#footer_wrap {
-  background: #000000;
-  text-align:center;
-}
-
-#forkme_banner {
-  display: block;
-  position: absolute;
-  top:0;
-  right: 10px;
-  z-index: 10;
-  padding: 10px 20px 10px 50px;
-  color: #fff;
-  background: url('{{site.baseurl}}/images/blacktocat.svg') #0090ff no-repeat 8% 50%;
-  background-size: 25px;
-  font-weight: 700;
-  border: none;
-}
-
-#forkme_banner:hover {
-  background-color: #1883ed;
-}
-
-a {
-  display: inline-block;
-  text-decoration: none;
-  border-bottom: 1px dotted #666;
-  color: inherit;
-  text-shadow: none;
-}
-
-img {
-    display: block;
-    margin: 0 auto;
-}
+<html>
+    <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <meta name="description" content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+    <link rel="icon" href="images/pint_icon.png">
+    <title>{{ site.title | default: site.github.repository_name }}</title>
+		    </head>
+  <body>
+        <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+          <div>
+    <p id=pint_head><img src="images/pinticon.png" border="0px" width="512px" height="400px"></p>
+          </div>
+          <div>
+            <p id="pint_title_header">NMR spectroscopy software for line shape fitting and downstream analysis</p>
+          </div>
+        </header>
+    </div>
+<section id="main_content" class="inner2">
+<div>
+  <p class="PINT_title">Download PINT</p>
+</div>
+  <div class="main-container">
+  <div class="fixer-container">
+<div class="container">
+  <p class="title"><img src="images/windows_normal.png" height= "90px" width="180px"></p>
+  <div class="overlay"></div>
+  <div class="button"><a href="https://github.com/PINT-NMR/PINT/releases/download/v2.0/PINT_v2_windows_x86_64.zip"> Download </a></div>
+</div>
+<div class="container">
+  <p class="title"><img src="images/mac_normal.png" height= "90px" width="180px"></p>
+  <div class="overlay"></div>
+  <div class="button"><a href="https://github.com/PINT-NMR/PINT/releases/download/v2.0/PINT_v2_mac_x86_64.dmg"> Download </a></div>
+</div>
+<div class="container">
+  <p class="title"><img src="images/linux_normal.png" height= "90px" width="180px"></p>
+  <div class="overlay"></div>
+  <div class="button"><a href="https://github.com/PINT-NMR/PINT/releases/download/v2.0/PINT_v2_linux_x86_64.tar.gz"> Download </a></div>
+</div>
+<div class="container">
+  <p class="title"><img src="images/source_normal.png" height= "90px" width="180px"></p>
+  <div class="overlay"></div>
+  <div class="button"><a href="https://github.com/PINT-NMR/PINT/archive/v2.0.zip"> Download </a></div>
+</div>
+    </div>
+    </div>
+<div>
+  <p class="PINT_desc">A user-friendly software for rapid and accurate analysis of NMR spectra</p>
+<p class="article">PINT (Peak INTegration) is designed to perform integration of peaks in NMR spectra. The program is easy to use, yet powerful enough to handle complicated spectra. Peaks are integrated by fitting predefined line shapes to experimental data and the fitting can be customized to deal with heavily overlapped peaks. The results can be inspected graphically, which facilitates systematic optimization of the line shape fitting. The integrated peak volumes can be used to extract parameters such as relaxation rates and information about low populated states.<br><br>
+PINT v2.0 is based on a graphical user interface and contains all necessary tools to render and interact with spectra and automatically generate plots. Comprehensible video tutorials and a user manual are accessed from within the software. PINT is compiled for 64-bit versions of Windows, Linux and Mac OS X.</p>
+</div>
+</section>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        {% if site.github.is_project_page %}
+        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+</body>
+</html>
