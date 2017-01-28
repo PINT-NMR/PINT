@@ -8,14 +8,12 @@
   margin: auto;
 }
 #main_content {
-  padding-top: 40px;
+  padding-top: 20px;
   margin: auto;
 }
 .inner2 {
   position: relative;
   max-width: 1000px;
-  padding: 0px 0px;
-  margin: 0 0;
 }
 
 
@@ -81,7 +79,7 @@
   position: relative;
   width: 1000px;
   left: 0;
-  top: 0px;
+  margin-top: 0px;
   font-weight: 700;
   font-size: 30px;
   text-align: left;
@@ -99,7 +97,7 @@
   max-width:1000px;
   width: 1000px;
   left: 0;
-  margin-top: 350px;
+  margin-top: 250px;
   font-weight: 700;
   font-size: 30px;
   text-align: left;
@@ -176,6 +174,7 @@ footer p {
 }
 #footer_wrap {
   background: #000000;
+  text-align:center;
 }
 
 #forkme_banner {
@@ -186,7 +185,7 @@ footer p {
   z-index: 10;
   padding: 10px 20px 10px 50px;
   color: #fff;
-  background: url('../images/blacktocat.svg') #0090ff no-repeat 8% 50%;
+  background: url('{{site.baseurl}}/images/blacktocat.svg') #0090ff no-repeat 8% 50%;
   background-size: 25px;
   font-weight: 700;
   border: none;
