@@ -62,7 +62,7 @@
   position: relative;
   width: 250px;
   left: 0;
-  top: 50px;
+  top: 25px;
   font-weight: 700;
   font-size: 30px;
   text-align: center;
@@ -129,14 +129,14 @@
 }
 
 .container:hover .title {
-  top: 20px;
+  top: 5px;
 }
 
 .button {
   position: relative;
   width: 250px;
   left:0;
-  top: 50px;
+  top: 25px;
   text-align: center;
   opacity: 0;
   transition: opacity .35s ease;
@@ -147,8 +147,8 @@
 }
 
 .button a {
-  width: 200px;
-  padding: 12px 48px;
+  width: 150px;
+  padding: 7px 30px;
   text-align: center;
   color: white;
   border: solid 2px white;
