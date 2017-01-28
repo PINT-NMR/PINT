@@ -135,7 +135,7 @@
   position: relative;
   width: 250px;
   left:0;
-  top: -45px;
+  top: -35px;
   text-align: center;
   opacity: 0;
   transition: opacity .35s ease;
@@ -208,4 +208,3 @@ img {
     display: block;
     margin: 0 auto;
 }
- 
