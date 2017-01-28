@@ -35,10 +35,10 @@
 .container {
   float: left;
   position: relative;
-  margin-top: 25px;
-  margin-bottom: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   width: 250px;
-  height: 300px;
+  height: 200px;
   background: rgba(0, 0, 0, 1);
 }
 
@@ -62,7 +62,7 @@
   position: relative;
   width: 250px;
   left: 0;
-  top: 120px;
+  top: 50px;
   font-weight: 700;
   font-size: 30px;
   text-align: center;
@@ -129,14 +129,14 @@
 }
 
 .container:hover .title {
-  top: 90px;
+  top: 20px;
 }
 
 .button {
   position: relative;
   width: 250px;
   left:0;
-  top: 180px;
+  top: 50px;
   text-align: center;
   opacity: 0;
   transition: opacity .35s ease;
@@ -204,5 +204,3 @@ a {
   color: inherit;
   text-shadow: none;
 }
-
-a:hover, a:focus {border-bottom: 1px solid #0090ff;}
