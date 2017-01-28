@@ -35,8 +35,8 @@
 .container {
   float: left;
   position: relative;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 250px;
   height: 200px;
   background: rgba(0, 0, 0, 1);
