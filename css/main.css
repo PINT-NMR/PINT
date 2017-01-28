@@ -128,14 +128,14 @@
 }
 
 .container:hover .title {
-  top: 2px;
+  top: -20px;
 }
 
 .button {
   position: relative;
   width: 250px;
   left:0;
-  top: -75px;
+  top: -45px;
   text-align: center;
   opacity: 0;
   transition: opacity .35s ease;
