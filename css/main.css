@@ -60,7 +60,7 @@
   position: relative;
   width: 250px;
   left: 0;
-  top: 15px;
+  top: 0px;
   bottom: 0px;
   font-weight: 700;
   font-size: 30px;
@@ -135,7 +135,7 @@
   position: relative;
   width: 250px;
   left:0;
-  top: -35px;
+  top: -25px;
   text-align: center;
   opacity: 0;
   transition: opacity .35s ease;
