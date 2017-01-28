@@ -160,14 +160,17 @@
 }
 
 #pint_title_header{
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
 font-size:36px;
   max-width: 700px;
    line-height: 2.0;
   text-align:center;
+  margin: auto;
 }
 #pint_head {
     max-width: 1000px;
     font-size:28px;
+  margin: auto;
 }
 footer p {
   color: #f2f2f2;
