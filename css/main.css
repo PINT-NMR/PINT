@@ -135,7 +135,7 @@
   position: relative;
   width: 250px;
   left:0;
-  top: -35px;
+  top: -75px;
   text-align: center;
   opacity: 0;
   transition: opacity .35s ease;
@@ -186,7 +186,7 @@ footer p {
   z-index: 10;
   padding: 10px 20px 10px 50px;
   color: #fff;
-  background: url('{{site.baseurl}}/images/blacktocat.svg') #0090ff no-repeat 8% 50%;
+  background: url('../images/blacktocat.svg') #0090ff no-repeat 8% 50%;
   background-size: 25px;
   font-weight: 700;
   border: none;
