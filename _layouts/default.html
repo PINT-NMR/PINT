@@ -6,7 +6,40 @@
     <meta name="description" content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
     <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
     <link rel="icon" href="images/pint_icon.png">
-    <script type="text/javascript" src="{{site.baseurl}}/js/main.js"></script>
+    <script>
+	    $("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+
+$("#slideshow2 > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow2 > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow2');
+},  3000);
+
+$("#slideshow3 > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow3 > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow3');
+},  3000);
+	    </script>
     <title>{{ site.title | default: site.github.repository_name }}</title>
 		    </head>
 <body>
