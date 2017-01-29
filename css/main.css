@@ -4,8 +4,7 @@
 }
 
 #header_wrap .inner {
-  padding: 60px;
-  margin: auto;
+  padding: 256px;
 }
 #main_content {
   padding-top: 20px;
@@ -80,11 +79,12 @@
   position: relative;
   width: 1000px;
   left: 0;
-  margin-top: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 30px;
   text-align: left;
-  color: black;
+  color: white;
   z-index: 1;
   transition: top .5s ease;
     font-size: 42px;
@@ -98,11 +98,11 @@
   max-width:1000px;
   width: 1000px;
   left: 0;
-  margin-top: 250px;
+  margin-top: 0px;
   font-weight: 700;
   font-size: 30px;
   text-align: left;
-  color: black;
+  color: white;
   z-index: 1;
   transition: top .5s ease;
     font-size: 28px;
@@ -114,17 +114,21 @@
 .article {
   position: relative;
   max-width:1000px;
-  width: 1000px;
+  width: 450px;
   left: 0;
-  margin-top: 20px;
-  font-weight: 570;
-  text-align: left
-  color: black;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  font-weight: 10;
+  text-align: left;
+  color: #e6e6e6;
   z-index: 1;
-    font-size: 16px;
+  transition: top .5s ease;
+    font-size: 20px;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 2.0;
   -webkit-font-smoothing: antialiased;
+  text-align:justify;
+  background-color:black;
 }
 
 .container:hover .title {
@@ -159,12 +163,10 @@
 }
 
 #pint_title_header{
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-font-size:36px;
-  max-width: 700px;
-   line-height: 2.0;
-  text-align:center;
-  margin: auto;
+  max-width: 500px;
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
 }
 #pint_head {
     max-width: 1000px;
@@ -209,3 +211,144 @@ img {
     margin: 0 auto;
 }
  
+.bg_black{
+    background: #000000;
+}
+
+#peak_black {
+  display: block;
+  position: absolute;
+  bottom:0px;
+  right: 0px;
+}
+#peak_black2 {
+  display: block;
+  position: absolute;
+  bottom:0px;
+  left: 0px;
+}
+
+header {  
+    background:
+          linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(http://i.imgur.com/DfLGEMA.jpg);
+  background-size: 100% 100%;
+  color: black;
+}
+
+#tagText{
+  position: absolute;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  max-width: 300px;
+  bottom:10px;
+  left:145px;
+  font-size: 22px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  line-height: 1.0;
+  -webkit-font-smoothing: antialiased;
+}
+#slideshow { 
+  float:right;
+  margin-right:0px;
+  margin-top:40px;
+    position: relative;
+    width: 500px; 
+    height: 331px; 
+    padding: 10px; 
+    box-shadow: 0 0 5px rgba(255,255,255,1); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px; 
+}
+.floatLeft{
+float:left;
+}
+.floatRight{
+float:right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#slideshow2 { 
+  float:left;
+  margin-left:0px;
+  margin-top:40px;
+    position: relative;
+    width: 500px; 
+    height: 331px; 
+    padding: 10px; 
+    box-shadow: 0 0 5px rgba(255,255,255,1); 
+}
+
+#slideshow2 > div { 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px; 
+}
+.article2 {
+  position: relative;
+  max-width:1000px;
+  width: 450px;
+  right: 0px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  font-weight: 10;
+  text-align: left;
+  color: #e6e6e6;
+  z-index: 1;
+  transition: top .5s ease;
+    font-size: 20px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  line-height: 2.0;
+  -webkit-font-smoothing: antialiased;
+  text-align:justify;
+  background-color:black;
+}
+
+#middleText {
+    font-size: 28px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  text-align:center;
+  color:white;
+}
+
+#slideshow3 { 
+  float:right;
+  margin-right: 0px;
+  margin-top:40px;
+    position: relative;
+    width: 500px; 
+    height: 331px; 
+    padding: 10px; 
+    box-shadow: 0 0 5px rgba(255,255,255,1); 
+}
+
+#slideshow3 > div { 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px; 
+}
+
+#footCenter {
+    font-size: 14px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  text-align:center;
+  color:white;
+}
